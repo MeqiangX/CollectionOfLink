@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN" "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd" >
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>1.2</jsp-version>
+  <short-name>test</short-name>
+  <uri>http://www.tag.com</uri>
+  <tag>
+    <name>hello</name>
+    <tag-class>com.amaket.tag.Tagtext</tag-class>
+    <body-content>empty</body-content>
+  </tag>
+  <tag>
+  	<name>tag2</name>
+  	<tag-class>com.amaket.tag.Tagclass2</tag-class>
+  	<body-content>none</body-content>
+  	<attribute>
+  		<name>count</name>
+  		<required>false</required>
+  		<rtexprvalue>true</rtexprvalue>
+  	</attribute>
+  </tag>
+</taglib>
